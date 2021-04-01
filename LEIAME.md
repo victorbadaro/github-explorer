@@ -45,11 +45,8 @@ Os comandos abaixo usam o gerenciador de pacotes [yarn](https://yarnpkg.com/).
 # 1. Instale as dependências do projeto
 $ yarn
 
-# 2. Execute a API do JSON Server
-yarn server
-
-# 3. Execute a aplicação
-$ yarn start
+# 2. Execute a aplicação
+$ yarn dev
 
 # Você também pode gerar os arquivos para colocar a aplicação em produção com:
 $ yarn build
@@ -63,7 +60,7 @@ Se tudo for executado corretamente, uma mensagem será apresentada no terminal i
 Compiled successfully
 ```
 
-Agora basta abrir o navegador e acessar: http://localhost:3000/
+Agora basta abrir o navegador e acessar: http://localhost:8080/
 
 ✅ Pronto! Se você seguiu corretamente os passos acima o projejto já estará sendo executado localmente em tua máquina.
 <br>
